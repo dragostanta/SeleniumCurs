@@ -88,7 +88,31 @@ public class CssSelectorExample2 extends BaseTest{
 		
 		
 	}
-		
+		/*
+		 * 
+		 * List<WebElement> categoryTabs = driver.findElements(By.cssSelector("sc_tabs_title"));
+		 * 
+		 * WebElement theForest = driver.findElement(By.cssSelector("div[aria-hidden ='false'] a[href='the-forest']"));
+		 * for(WebElement element : categoryTabs){
+		 * 	
+		 * 	element.click();
+		 *  theForest.isDisplayed();
+		 *  	
+		 *  	if(i == categoryTabs.lenght()-1 ){
+		 *  		theForest.click()
+		 *}
+		 *  
+		 *  	if(element.getText(),equals('award winners'){
+		 *  		theForest.click()
+		 *  }
+		 *   
+		 * }
+		 * 
+		 * theForest.click();
+		 * ---assert
+		 * 
+		 * 
+		 */
 		
 		
 		

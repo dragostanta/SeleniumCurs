@@ -14,8 +14,8 @@ public class BaseTest {
 		//System.setProperty("webdriber.chrome.driver", "path//chromedriver.exe")	
 		driver =  new ChromeDriver();
 		driver.manage().window().maximize();//face maximize la browser
-		driver.get("https://keybooks.ro/");
-		
+		//driver.get("https://keybooks.ro/");
+		driver.get("https://the-internet.herokuapp.com/javascript_alerts");
 		
 	}
 	
